@@ -51,6 +51,24 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  max-width: 1080px;
+  margin: auto;
+  padding: 1em;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  border-left: 2px solid #ccc;
+  padding-left: 1em;
+}
 		</style>
 	</head>
 
